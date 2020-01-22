@@ -8,10 +8,7 @@
 </head>
 <body>
     <div id="app">
-        <span v-bind:title="message">
-            Hover your mouse over me for a few seconds to
-            see my dynamically boud title!
-        </span>
+        <span v-if="seen">Now you see me</span>
     </div>
     <script src="../node_modules/vue/dist/vue.js"></script>
 
