@@ -8,7 +8,8 @@
 </head>
 <body>
     <div id="app">
-        <span v-if="seen">Now you see me</span>
+        <p>{{ message }}</p>
+        <button v-on:click="reverseMessage">Reverse Message</button>
     </div>
     <script src="../node_modules/vue/dist/vue.js"></script>
 
